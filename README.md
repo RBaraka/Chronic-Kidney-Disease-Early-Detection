@@ -1,4 +1,4 @@
-# 🩺 Chronic Kidney Disease Early Detection
+# Chronic Kidney Disease Early Detection
 **A Comparative Analysis of Machine Learning Classification Models**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Chronic kidney disease (CKD) affects over 850 million people worldwide and often goes undetected until it's too late. This project trained and compared five classification models to predict CKD in early stages using routine blood and urine tests. By analyzing 400 patient records with 24 clinical features, we identified the most interpretable and accurate model to enable early detection in primary care settings.
 
@@ -15,7 +15,7 @@ Chronic kidney disease (CKD) affects over 850 million people worldwide and often
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 All tuned models exceeded clinical targets (Sensitivity >95%, Specificity >90%, ROC-AUC >0.95):
 
@@ -31,7 +31,7 @@ All tuned models exceeded clinical targets (Sensitivity >95%, Specificity >90%, 
 
 ---
 
-## 🔍 Top Predictive Features (SHAP Analysis)
+## Top Predictive Features (SHAP Analysis)
 
 Feature importance analysis across models identified:
 1. **Hemoglobin** - Anemia marker (clinically validated)
@@ -45,7 +45,7 @@ Feature importance analysis across models identified:
 
 ---
 
-## 🏥 Why This Matters
+## Why This Matters
 
 - **90% of people with CKD are unaware they have it** (asymptomatic early stages)
 - Disease progression causes **irreversible damage** requiring dialysis or transplantation
@@ -55,7 +55,7 @@ Feature importance analysis across models identified:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease) - Apollo Hospitals, India (July-Nov 2015)
 
@@ -66,7 +66,7 @@ Feature importance analysis across models identified:
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### Pipeline
 1. **EDA:** Correlation analysis, distribution plots, outlier detection (IQR method)
@@ -84,7 +84,7 @@ Feature importance analysis across models identified:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### Key Results
 
@@ -110,7 +110,7 @@ Feature importance analysis across models identified:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Languages & Libraries:**
 - Python 3.8+
@@ -129,14 +129,13 @@ Feature importance analysis across models identified:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Chronic-Kidney-Disease-Early-Detection/
 ├── README.md                                    # Project overview and results
 ├── .gitignore                                   # Git exclusions
 ├── LICENSE                                      # MIT License
-├── requirements.txt                             # Python dependencies
 │
 ├── notebooks/
 │   ├── 01_EDA_and_Preprocessing.ipynb          # Data exploration and cleaning
@@ -197,7 +196,7 @@ Chronic-Kidney-Disease-Early-Detection/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone Repository
 ```bash
@@ -221,7 +220,7 @@ jupyter notebook
 
 ---
 
-## 🎯 Key Findings & Recommendations
+## Key Findings & Recommendations
 
 ### Clinical Insights
 1. **All models exceeded performance targets** - CKD prediction is feasible with routine tests
@@ -239,7 +238,7 @@ jupyter notebook
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - **Multi-site validation** to assess generalizability across demographics and healthcare settings
 - **Temporal prediction** for CKD stage progression modeling
@@ -249,7 +248,7 @@ jupyter notebook
 
 ---
 
-## 📚 References
+## References
 
 Key papers and resources used in this project:
 
@@ -263,13 +262,13 @@ Key papers and resources used in this project:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 We acknowledge the **UCI Chronic Kidney Disease dataset from Apollo Hospitals, India**, which made this research possible. This project was completed as part of the Data Science Master's program at the University of Colorado Boulder.
 
 ---
 
-## 📧 Contact
+## Contact
 
 **RB**  
 Data Science Graduate Student  
@@ -278,7 +277,7 @@ University of Colorado Boulder
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
