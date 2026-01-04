@@ -1,4 +1,4 @@
-# 🩺 Chronic Kidney Disease Early Detection
+# Chronic Kidney Disease Early Detection
 **A Comparative Analysis of Machine Learning Classification Models**
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Chronic kidney disease (CKD) affects over 850 million people worldwide and often goes undetected until it's too late. This project trained and compared five classification models to predict CKD in early stages using routine blood and urine tests. By analyzing 400 patient records with 24 clinical features, we identified the most interpretable and accurate model to enable early detection in primary care settings.
 
@@ -15,7 +15,7 @@ Chronic kidney disease (CKD) affects over 850 million people worldwide and often
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 ### Default Model Performance (5-Fold Cross-Validation)
 All models exceeded clinical targets (Sensitivity >95%, Specificity >90%, ROC-AUC >0.95):
