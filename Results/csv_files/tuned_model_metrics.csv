@@ -1,0 +1,4 @@
+Model,Accuracy,Sensitivity,Specificity,Precision,F1-Score,Total_Errors,False_Positives,False_Negatives
+Logistic Regression,0.9825,0.9933,0.9760,0.9613,0.9770,7,6,1
+SVM,0.9875,0.9867,0.9880,0.9801,0.9834,5,3,2
+XGBoost,0.9800,0.9667,0.9880,0.9797,0.9732,8,3,5
