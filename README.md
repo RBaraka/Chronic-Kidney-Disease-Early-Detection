@@ -43,24 +43,24 @@ Chronic kidney disease (CKD) affects 850+ million people globally, with 90% unaw
 ## Key Visualizations
 
 ### Model Performance
-![ROC Curves](results/ROC_Curves.png)
+![ROC Curves](Results/visualizations/performance/ROC_Curves.png)
 *ROC curves comparison with zoomed inset - all models achieve >0.95 AUC*
 
-![Confusion Matrices](results/Confusion_Matrices_All_Models.png)
+![Confusion Matrices](Results/visualizations/performance/Confusion_Matrices_All_Models.png)
 *Confusion matrices showing error breakdown for all five models*
 
 ### Feature Importance (SHAP Analysis)
-![Feature Comparison](results/Feature_Importance_Comparison.png)
+![Feature Comparison](Results/visualizations/feature_importance/Feature_Importance_Comparison.png)
 *Top 15 features across four models - consistent importance of anemia markers*
 
-![SHAP Beeswarm - Logistic Regression](results/shap_beeswarm_lr.png)
+![SHAP Beeswarm - Logistic Regression](Results/visualizations/feature_importance/shap_beeswarm_lr.png)
 *SHAP beeswarm plot showing feature value impact on predictions*
 
 ### Data Quality & Preprocessing
-![Correlation Matrix](results/Correlation_Matrix_After_kNN_Imputation.png)
+![Correlation Matrix](Results/visualizations/exploratory/Correlation_Matrix_After_kNN_Imputation.png)
 *Feature correlations after kNN imputation - Hemoglobin (0.77), PCV (0.74), RBC (0.70)*
 
-*Full analysis with 18 visualizations and 5 CSV files available in `/Results/` folder.*
+*Full analysis with 18 visualizations and 5 CSV files available in `/Results/` folder (organized by type: csv_files, visualizations, models).*
 
 ---
 
