@@ -1,4 +1,0 @@
-Model,Best_Parameters,Best_F1_Score,Default_F1_Score,Improvement
-Logistic Regression,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs'}",0.9771495666358934,0.981,-0.00385043336410662
-SVM,"{'classifier__C': 10.0, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}",0.9768287487264982,0.98,-0.0031712512735018183
-XGBoost,"{'classifier__n_estimators': 200, 'classifier__max_depth': 3, 'classifier__learning_rate': 0.05, 'classifier__subsample': 1.0, 'classifier__min_child_weight': 1, 'classifier__colsample_bytree': 0.8}",0.9762596889940692,0.973,0.003259688994069254
