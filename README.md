@@ -1,6 +1,6 @@
 # Chronic Kidney Disease Early Detection: A Comparative Analysis of Classification Models
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -44,16 +44,23 @@ Chronic kidney disease (CKD) affects 850+ million people globally, with 90% unaw
 
 ### Model Performance
 ![ROC Curves](Results/ROC_Curves.png)
+*ROC curves comparison with zoomed inset - all models achieve >0.95 AUC*
+
 ![Confusion Matrices](Results/Confusion_Matrices_All_Models.png)
+*Confusion matrices showing error breakdown for all five models*
 
 ### Feature Importance (SHAP Analysis)
 ![Feature Comparison](Results/Feature_Importance_Comparison.png)
-![SHAP Beeswarm - LR](Results/shap_beeswarm_lr.png)
+*Top 15 features across four models - consistent importance of anemia markers*
 
-### Data Quality
+![SHAP Beeswarm - Logistic Regression](Results/shap_beeswarm_lr.png)
+*SHAP beeswarm plot showing feature value impact on predictions*
+
+### Data Quality & Preprocessing
 ![Correlation Matrix](Results/Correlation_Matrix_After_kNN_Imputation.png)
+*Feature correlations after kNN imputation - Hemoglobin (0.77), PCV (0.74), RBC (0.70)*
 
-*Full analysis with 18 visualizations available in `/Results/` folder.*
+*Full analysis with 18 visualizations and 5 CSV files available in `/Results/` folder.*
 
 ---
 
