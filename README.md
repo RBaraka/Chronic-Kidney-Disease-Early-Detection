@@ -1,7 +1,7 @@
 # 🩺 Chronic Kidney Disease Early Detection
 **A Comparative Analysis of Machine Learning Classification Models**
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -123,7 +123,7 @@ Feature importance analysis across models identified:
 ## 🛠️ Technologies Used
 
 **Languages & Libraries:**
-- Python 3.8+
+- Python 3.11
 - scikit-learn (ML models, pipelines, cross-validation, GridSearchCV)
 - SHAP (feature importance & model interpretability)
 - pandas, numpy (data manipulation)
