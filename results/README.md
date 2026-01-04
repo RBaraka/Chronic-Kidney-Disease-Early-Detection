@@ -16,7 +16,7 @@ Essential data files for analysis and reporting:
 
 ### From Notebook 3: SHAP Analysis and Interpretation
 - `hyperparameter_tuning_summary.csv` - Best hyperparameters and improvements
-- `tuned_model_metrics.csv` - **Final tuned model performance on full dataset**
+- `tuned_model_metrics.csv` - **Final tuned model performance (5-fold cross-validation)**
 
 ## Visualizations (18 total)
 
